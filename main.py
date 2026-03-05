@@ -1,7 +1,10 @@
+#import requests
+#import os
+#from twilio.rest import Client
+#from twilio.http.http_client import TwilioHttpClient
 import requests
-import os
 from twilio.rest import Client
-from twilio.http.http_client import TwilioHttpClient
+
 
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
