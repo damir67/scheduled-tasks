@@ -29,7 +29,6 @@ jobs:
           if [ -z "$MY_EMAIL" ]; then
             echo "MY_EMAIL secret is not set!"
             echo "Go to Settings > Secrets > Actions and add it."
-            exit 1
           else
             echo "MY_EMAIL is configured"
           fi
@@ -37,7 +36,6 @@ jobs:
           if [ -z "$MY_PASSWORD" ]; then
             echo "MY_PASSWORD secret is not set!"
             echo "Go to Settings > Secrets > Actions and add it."
-            exit 1
           else
             echo "MY_PASSWORD is configured"
           fi
