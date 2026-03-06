@@ -1,3 +1,2 @@
-os
-request
+requests
 twilio
