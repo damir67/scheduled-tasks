@@ -11,8 +11,6 @@ auth_token = os.environ.get("AUTH_TOKEN")
 api_key = os.environ.get("OWM_API_KEY")
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 
-proxy_client = TwilioHttpClient()
-proxy_client.session.proxies =  {'https': os.environ['https_proxy']}
 
 weather_params = {
     "lat": 45.815010, # ZG
